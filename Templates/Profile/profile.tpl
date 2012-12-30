@@ -1,4 +1,4 @@
-﻿<?php 
+<?php 
 $varmedal = $database->getProfileMedal($session->uid);  ?>
 <form action="spieler.php" method="POST">
     <input type="hidden" name="ft" value="p1" />
@@ -56,7 +56,7 @@ $varmedal = $database->getProfileMedal($session->uid);  ?>
 		<table cellpadding="1" cellspacing="1" id="medals" class="hide">
 			<thead>
 				<tr>
-					<td>Category/td>
+					<td>Category</td>
 					<td>Rank</td>
 					<td>Week</td>
 					<td>BB-code</td>
@@ -64,7 +64,7 @@ $varmedal = $database->getProfileMedal($session->uid);  ?>
 			</thead>
 			<tbody>
 									<tr>
-													<td class="typ">Kezdővédelem</td>
+													<td class="typ">Begineer Protection</td>
 													<td class="ra"></td>
 													<td class="we"></td>
 													<td class="bb">[#0]</td>
@@ -89,31 +89,31 @@ INDELING CATEGORIEEN:
 	$titel="Medál";
 	switch ($medal['categorie']) {
     case "1":
-        $titel="مهاجمین هفته";
+        $titel="Attackers of The Week";
         break;
     case "2":
-        $titel="مدافعین هفته";
+        $titel="Defenders of The Week";
         break;
     case "3":
-        $titel="پیشرفت کننده های هفته";
+        $titel="Climbers of The Week";
         break;
     case "4":
-        $titel="غارتگران هفته";
+        $titel="Raiders of The Week";
         break;
     case "5":
-        $titel="تاپ10 مهاجمین و مدافعین";
+        $titel="Top 10 Attackers and Defenders of The Week";
         break;
     case "6":
-        $titel="مهاجمین هفته با ".$medal['points']." امتیاز بین 3 نفر اول.";
+        $titel="Attackers of the Week ".$medal['points']." Top 3 in Week.";
         break;
     case "7":
-        $titel="مدافعین هفته با ".$medal['points']." امتیاز بین 3 نفر اول.";
+        $titel="Defenders of the Week ".$medal['points']." Top 3 in Week.";
         break;
     case "8":
-        $titel="پیشرفت کننده های هفته با ".$medal['points']." امتیاز بین 3 نفر اول.";
+        $titel="Climbers of The Week ".$medal['points']." Top 3 in Week.";
         break;
     case "9":
-        $titel="غارتگران هفته با ".$medal['points']." امتیاز بین 3 نفر اول.";
+        $titel="Looters of The Week ".$medal['points']." Top 3 in Week.";
         break;
     case "10":
         $titel="پیشرفت کننده های هفته";
