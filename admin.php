@@ -1,21 +1,5 @@
 <?php
-#################################################################################
-##                                                                             ##
-##              -= YOU MUST NOT REMOVE OR CHANGE THIS NOTICE =-                ##
-##                                                                             ##
-## --------------------------------------------------------------------------- ##
-##                                                                             ##
-##  Project:       ZravianX                                                    ##
-##  Version:       2011.12.03                                                  ##
-##  Filename:      admin.php                                                   ##
-##  Developed by:  Dzoki                                                       ##
-##  Reworked by:   ZZJHONS                                                     ##
-##  License:       Creative Commons BY-NC-SA 3.0                               ##
-##  Copyright:     ZravianX (c) 2011 - All rights reserved                     ##
-##  URLs:          http://zravianx.zzjhons.com                                 ##
-##  Source code:   http://www.github.com/ZZJHONS/ZravianX                      ##
-##                                                                             ##
-#################################################################################
+
 
 session_start();
 include("GameEngine/Database.php");
@@ -104,7 +88,7 @@ include("GameEngine/Admin/database.php");
         <div class="footer-stopper outgame"></div>
 		<center>
         	<br />
-            <p><font color="#999999">This ACP has been reworked by <a href="http://zzjhons.com">ZZJHONS</a></font></p>
+            <p><font color="#999999">This ACP has been worked by <a href="http://facebook.com/uttkarsh5">Uttkarsh Yadav</a></font></p>
             <br />
         </center>
         <div class="clear"></div>
