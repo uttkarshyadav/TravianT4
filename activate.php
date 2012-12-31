@@ -106,7 +106,7 @@ include("Templates/activate/activate.tpl");
 			</div>
 
 			<div id="ce"></div>
-														</div>
+		</div>
 
-			</body>
-</html>
+		</body>
+		</html>
