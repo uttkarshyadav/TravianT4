@@ -176,4 +176,3 @@ include("Templates/quest.tpl");
 </div>
 </body>
 </html>
-
