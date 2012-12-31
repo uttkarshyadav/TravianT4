@@ -1,5 +1,4 @@
 ﻿<?php
-
        include ("GameEngine/Village.php");
        include ("GameEngine/Chat.php");
 $start = $generator->pageLoadTimeStart();
