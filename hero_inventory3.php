@@ -50,10 +50,10 @@ $start = $generator->pageLoadTimeStart();
 <script type="text/javascript">
 Travian.Translation.add(
 {
-	'allgemein.anleitung':	'دستورالعمل',
-	'allgemein.cancel':	'لغو',
-	'allgemein.ok':	'تایید',
-	'cropfinder.keine_ergebnisse': 'چیزی مطابق جستجوی شما پیدا نشد.'
+	'allgemein.anleitung':	'Instructions',
+	'allgemein.cancel':	'Cancellation',
+	'allgemein.ok':	'Confirmation',
+	'cropfinder.keine_ergebnisse': 'Could not find anything matching your search'
 });
 Travian.applicationId = 'T4.0 Game';
 Travian.Game.version = '4.0';
@@ -134,22 +134,22 @@ if($message->unread) {
 				<div class="container active">
 					<div class="background-start">&nbsp;</div>
 					<div class="background-end">&nbsp;</div>
-					<div class="content"><a href="hero_inventory.php"><span class="tabItem">خصوصیات</span></a></div>
+					<div class="content"><a href="hero_inventory.php"><span class="tabItem">Specifications</span></a></div>
 				</div>
 				<div class="container normal">
 					<div class="background-start">&nbsp;</div>
 					<div class="background-end">&nbsp;</div>
-					<div class="content"><a href="hero.php"><span class="tabItem">ظاهر</span></a></div>
+					<div class="content"><a href="hero.php"><span class="tabItem">Apparent</span></a></div>
 				</div>
 				<div class="container normal">
 					<div class="background-start">&nbsp;</div>
 					<div class="background-end">&nbsp;</div>
-					<div class="content"><a href="hero_adventure.php"><span class="tabItem">ماجراجویی‌ها</span></a></div>
+					<div class="content"><a href="hero_adventure.php"><span class="tabItem">Adventures</span></a></div>
 				</div>
 				<div class="container normal">
 					<div class="background-start">&nbsp;</div>
 					<div class="background-end">&nbsp;</div>
-					<div class="content"><a href="hero_auction.php"><span class="tabItem">حراجی‌ها</span></a></div>
+					<div class="content"><a href="hero_auction.php"><span class="tabItem">Auction</span></a></div>
 				</div><div class="clear"></div>
 		</div>
 		<script type="text/javascript">
@@ -184,8 +184,8 @@ include("Templates/hero.tpl");
 		</div>
 	</div>
 	<div class="heroHidden">
-		<input type="checkbox" class="check" name="hideShow" id="heroHideShow" checked="checked" disabled> اگر انتخاب شده باشد قهرمان از دهکده‌ای که در آن می‌باشد دفاع 
-نخواهد کرد (گریز خواهد کرد).
+		<input type="checkbox" class="check" name="hideShow" id="heroHideShow" checked="checked" disabled> If it is selected, which is the defending champion of the village
+Will not (will escape).
 	</div>
 </div>
 <div id="hero_inventory">
@@ -204,8 +204,8 @@ include("Templates/hero.tpl");
 					<div id="inventory_11" class="inventory draggable"></div>
 					<div id="inventory_12" class="inventory draggable"></div>
 				<div class="market">
-			<a class="buy arrow" href="hero_auction.php?action=buy">خرید جنس.</a>
-			<a class="sell arrow" href="hero_auction.php?action=sell">فروش جنس.</a>
+			<a class="buy arrow" href="hero_auction.php?action=buy">Buy Item.</a>
+			<a class="sell arrow" href="hero_auction.php?action=sell">Selling Item.</a>
             
 			<div class="clear"></div>
 		</div>
@@ -250,15 +250,15 @@ include("Templates/hero.tpl");
 			],
 			text:
 			{
-				notMoveableText: '<span class="itemNotMoveable">قهرمان شما مرده است و یا در دهکده نیست، به این دلیل قادر به استفاده از این جنس نمی‌باشید.</span>',
-				notMoveableTextDead: '<span class="itemNotMoveable">قادر به تغییر مکان این جنس نمی‌باشید. ابتدا باید قهرمان خود \r\nرا زنده کنید.</span>',
-				moveDialogDescription:	'تعداد اجناسی که تغییر مکان داده شوند: {inputField}',
-				useDialogDescription:	'تعداد اجناسی که استفاده شوند: {inputField}',
-                useOneDialogTitle:	'آیا واقعاً می‌خواهید این جنس را مصرف کنید؟',
-				moveDialogTitle: 'تغییر مکان',
-				useDialogTitle: 'استفاده',
-				buttonOk: 'تایید',
-				buttonCancel: 'لغو'
+				notMoveableText: '<span class="itemNotMoveable">Your hero is dead or not in the village, because they may not be able to use this material.</span>',
+				notMoveableTextDead: '<span class="itemNotMoveable">This material may not be able to shift. First, your Hero \ r \ n Make sure the.</span>',
+				moveDialogDescription:	'The number of items that can be moved: {inputField}',
+				useDialogDescription:	'The number of items that can be used: {inputField}',
+                useOneDialogTitle:	'Do you really want to eat this item',
+				moveDialogTitle: 'Shift',
+				useDialogTitle: 'Use',
+				buttonOk: 'Confirmation',
+				buttonCancel: 'Cancellation'
 			},
 			elementHeroBody: $$('div#hero_body img')[0],
 			heroBodyHash: '7e690da68a067eb445691ae4fac0014a',
