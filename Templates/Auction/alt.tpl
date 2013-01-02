@@ -2,82 +2,82 @@
 	if($btype==1){
     
     	if($type==1){
-        	$name = "A felismerés sisakja";
-        	$title = "+15 százalékkal több tapasztalat a hősnek.";
+        	$name = "The helmet of recognition";
+        	$title = "+15 Per cent more experience with the hero.";
             $item = "1";
             $effect = "15";
 		}elseif($type==2){
-        	$name = "A megvilágosodás sisakja";
-        	$title = "+20 százalékkal több tapasztalat a hősnek.";
+        	$name = "The helmet of enlightenment";
+        	$title = "+20 Per cent more experience with the hero.";
             $item = "2";
             $effect = "20";
 		}elseif($type==3){
-        	$name = "A bölcsesség sisakja";
-        	$title = "+25% százalékkal több tapasztalat a hősnek.";
+        	$name = "The helmet of wisdom";
+        	$title = "+25% Per cent more experience with the hero.";
             $item = "3";
             $effect = "25";
 		}
         if($type==4){
-        	$name = "A regeneráció sisakja";
-        	$title = "+10 egészség pont naponta";
+        	$name = "The helmet of regeneration";
+        	$title = "+10 health points per day";
             $item = "4";
             $effect = "10";
         }elseif($type==5){
-        	$name = "Az egészség sisakja";
-        	$title = "15+ egészség pont naponta";
+        	$name = "The helmet of health";
+        	$title = "15+ health points per day";
             $item = "5";
             $effect = "15";
         }elseif($type==6){
-        	$name = "A gyógyulás sisakja";
-        	$title = "20+ egészség pont naponta";
+        	$name = "The helmet of healing";
+        	$title = "20+ health points per day";
             $item = "6";
             $effect = "20";
         }
         if($type==7){
-        	$name = "A Gladiátor sisakja";
-			$title = "+100 kulturális pont naponta";
+        	$name = "The helmet of Gladiator";
+			$title = "+100 cultural points per day";
             $item = "7";
             $effect = "100";
 		}elseif($type==8){
-        	$name = "A szószék sisakja";
-			$title = "+400 kulturális pont naponta";
+        	$name = "The helmet of pulpit";
+			$title = "+400 cultural points per day";
             $item = "8";
             $effect = "400";
 		}elseif($type==9){
-        	$name = "A Konzul sisakja";
-			$title = "+800 kulturális pont naponta";
+        	$name = "The helmet of Consul";
+			$title = "+800 cultural points per day";
             $item = "9";
             $effect = "800";
 		}
         if($type==10){
-        	$name = "A lovaglás sisakja";
-			$title = "10%-al rövidebb kiképzési idő az istállóban az adott faulban";
+        	$name = "The helmet of riding";
+			$title = "10%-training time is shorter in Stable";
             $item = "10";
             $effect = "10";
 		}elseif($type==11){
-        	$name = "A lovasság sisakja";
-			$title = "15%-al rövidebb kiképzési idő az istállóban az adott faulban";
+        	$name = "The helmet of cavalry";
+			$title = "15%-training time is shorter in Stable";
             $item = "11";
             $effect = "15";
 		}elseif($type==12){
-        	$name = "A nehézlovasság sisakja";
-			$title = "20%-al rövidebb kiképzési idő az istállóban az adott faulban";
+        	$name = "The helmet of heavy cavalry";
+			$title = "20%-training time is shorter in Stable";
             $item = "12";
             $effect = "20";
 		}
         if($type==13){
-        	$name = "A Zsoldos sisakja";
-			$title = "10%-al rövidebb kiképzési idő a kaszárnyában az adott faulban";
+        	$name = "The helmet of mercenary";
+			$title = "10%-shorter training time in the barracks";
             $item = "13";
             $effect = "10";
 		}elseif($type==14){
-        	$name = "A Harcos sisakja";
-			$title = "15%-al rövidebb kiképzési idő a kaszárnyában az adott faulban";
+        	$name = "The helmet of warrior";
+			$title = "15%-shorter training time in the barracks";
             $item = "14";
             $effect = "15";
 		}elseif($type==15){
-        	$name = "A Vezér sisakja";
-			$title = "20%-al rövidebb kiképzési idő a kaszárnyában az adott faulban";
+        	$name = "The helmet of chief";
+			$title = "20%-shorter training time in the barracks";
             $item = "15";
             $effect = "20";
 		}
@@ -90,7 +90,7 @@
             $item = "82";
             $effect = "20";
 		}elseif($type==83){
-        	$name = "A Regeneráció vértje";
+        	$name = "A regeneration vértje";
         	$title = "30+ egészség pont naponta";
             $item = "83";
             $effect = "30";
