@@ -570,3 +570,4 @@ include("Templates/quest.tpl");
 </body>
 </html>
 
+
