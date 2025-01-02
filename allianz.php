@@ -217,7 +217,6 @@ if($message->unread) {
 ?>
 
 
-
 <div class="clear">&nbsp;</div>
 </div>
 <div class="clear"></div>
